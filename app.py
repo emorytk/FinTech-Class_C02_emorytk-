@@ -51,12 +51,16 @@ def get_applicant_info():
     income = questionary.text("What's your total monthly income?").ask()
     loan_amount = questionary.text("What's your desired loan amount?").ask()
     home_value = questionary.text("What's your home value?").ask()
+    
+    # create a user dialog that prompts the user for whether they want to save their qualifying loans. Use Questionary to prompt the user with .confirm.ask.
+    qualifying_loans = questionary.text("Would you like to save a list of qualifying loans?").ask()
 
     credit_score = int(credit_score)
     debt = float(debt)
     income = float(income)
     loan_amount = float(loan_amount)
     home_value = float(home_value)
+    qualifying_loans = float(qualifying_loans)
 
     return credit_score, debt, income, loan_amount, home_value
 
@@ -108,7 +112,7 @@ def save_qualifying_loans(qualifying_loans):
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
     """
-    # @TODO: write a function named save_csv that uses the csv library to save the qualifying data as a file
+    # write a function that accepts the list of qualifying loans
     csvpath = Path('qualifying_loans.csv')
     save_csv(csvpath, qualifying_loans)
 
