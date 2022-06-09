@@ -11,6 +11,7 @@ import fire
 import questionary
 from pathlib import Path
 
+# import filed named save_csv that uses the csv library to save the qualifying data as a file
 from qualifier.utils.fileio import load_csv, save_csv
 
 from qualifier.utils.calculators import (
@@ -50,11 +51,12 @@ def get_applicant_info():
     debt = questionary.text("What's your current amount of monthly debt?").ask()
     income = questionary.text("What's your total monthly income?").ask()
     loan_amount = questionary.text("What's your desired loan amount?").ask()
-    home_value = questionary.text("What's your home value?").ask()
+    home_value = questionary.text("What's your home value?").ask()    
     
     # create a user dialog that prompts the user for whether they want to save their qualifying loans. Use Questionary to prompt the user with .confirm.ask.
     qualifying_loans = questionary.text("Would you like to save a list of qualifying loans?").ask()
 
+    # Get applicants information
     credit_score = int(credit_score)
     debt = float(debt)
     income = float(income)
