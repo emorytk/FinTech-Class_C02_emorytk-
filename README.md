@@ -1,18 +1,20 @@
-# Project Title
+# Qualifying Loan Feature added to Loan Application
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This project involves adding a feature to the loan application, where the software will prompt users to save the qualifying loans searched for in a new CSV file. The original application uses data from a 'daily_rate_sheet" and this feature will use that same data, only it will save the search in a separate file.
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+This project requires python 3.7 along with fire and questionary. The latest versions of both can be uploaded from GitHub.
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+First, make sure that you are using python 3.7 if you are working in Windows 10 or 11, as python will automatically default to a more recent version of python if you are. This will prevent python from not recognizing that both have been installed.
+
+Next, install fire and questionary from GitHub. 
 
 ---
 
@@ -24,7 +26,7 @@ This section should include screenshots, code blocks, or animations explaining h
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+Tracy Emory and the UW FinTech Bootcamp Team
 
 ---
 
