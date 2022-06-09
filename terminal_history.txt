@@ -32,3 +32,4 @@
    32  Starter_Code\loan_qualifier_app\data\daily_rate_sheet.csv
    33  clear
    34  history 50 > terminal_history.txt
+   35  history 100 > terminal_history.txt
