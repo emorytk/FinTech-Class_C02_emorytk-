@@ -36,7 +36,7 @@ def load_bank_data():
     csvpath = Path(csvpath)
     if not csvpath.exists():
         sys.exit(f"Oops! Can't find this path: {csvpath}")
-    
+        
     return load_csv(csvpath)
 
 
