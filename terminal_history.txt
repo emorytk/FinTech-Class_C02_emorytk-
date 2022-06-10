@@ -3,33 +3,25 @@
     3  git config --global user.name
     4  ssh-keygen -t ed25519 -c emotracyfintech62@gmail.com
     5  ssh-keygen -t rsa -b 4096 -C "emotracyfintech@gmail.com"
-    6  clear
-    7  cd Starter_Code/
+    6  C:/Users/emory/anaconda3/Scripts/activate
+    7  conda activate atmdev
     8  python app.py
-    9  clear
-   10  cd loan_qualifier_app/
-   11  conda activate dev
-   12  python app.py 
-   13  clear
-   14  python app.py 
-   15  clear
-   16  pythn app.py 
-   17  python app.py 
-   18  python app.py 
-   19  clear
-   20  python app.py 
-   21  clear
-   22  python cli.py
+    9  cd Starter_Code/loan_qualifier_app/
+   10  python app.py 
+   11  cd ..
+   12  cd data/
+   13  cd loan_qualifier_app/
+   14  cd data
+   15  python daily_rate_sheet.csv 
+   16  conda activate dev
+   17  ~/OneDrive/Desktop/FinTech-Class/Module_02/Challenge/Starter_Code/loan_qualifier_app/data
+   18  cd ~/OneDrive/Desktop/FinTech-Class/Module_02/Challenge/Starter_Code/loan_qualifier_app/data
+   19  python daily_rate_sheet.csv 
+   20  clear
+   21  python app.py
+   22  cd ..
    23  python app.py 
    24  python app.py 
-   25  clear
-   26  python app.py --credit_score=750 --debt=5000 --income=20000
-   27  python app.py python app.py --credit_score=750 --debt=5000 --income=20000
-   28  python app.py --credit_score=750 --debt=5000 --income=20000
-   29  python app.py --credit_score=750 --debt=5000 --income=20000
-   30  Starter_Code\loan_qualifier_app\data\daily_rate_sheet.csv
-   31  pythonpython app.py --credit_score=750 --debt=5000 --income=20000
-   32  Starter_Code\loan_qualifier_app\data\daily_rate_sheet.csv
-   33  clear
-   34  history 50 > terminal_history.txt
-   35  history 100 > terminal_history.txt
+   25  python app.py 
+   26  python app.py 
+   27  history 50 > terminal_history.txt
